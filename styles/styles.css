@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper{
+display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.wrapper>*{
+	padding: 20px;
+	margin: 20px;
+	flex: 1 100%;
+	border-radius: 20px;
+	
+}
+
+.header{
+	background: #FF9D52;
+	height: 100px;
+	
+}
+
+.footer{
+	background: #F0F465;
+	height: 60px;
+}
+.main{
+	text-align: left;
+	background: #4FEDCD;
+	height: 300px;
+	font: 28px;
+	
+	
+}
+.secondary{
+	background: #4FEDCD;
+	height: 300px;
+	font: 28px;
+	
+}
+.aside{
+	background: #377A68
+	
+}
+
+.aside2{
+	background: #377A68
+}
+
+@media all and (min-width: 800px){
+	.main{
+		flex: 3;
+	}
+	.aside{
+		
+		order: 1;
+	}
+	.aside2{
+		order: 2;
+		
+	}
+	.main{
+		order: 2;
+	}
+	
+	.secondary{
+		order: 3;
+	}
+	
+	.footer{
+		order: 4;
+		
+	}
+	
+}
+
+@media all and (min-width: 600px){
+	.aside {
+		flex: 1;
+	}
+}
