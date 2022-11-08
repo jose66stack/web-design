@@ -1,0 +1,7 @@
+@import "./vendors/_normalize.scss";
+@import "colors";
+body {
+  color: $dark-background;
+  background: $darker-background;
+}
+

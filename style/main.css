@@ -1,4 +1,6 @@
+
 @charset "utf-8";
+sass --watch main.scss:main.css
 body,html{
     margin:0;
     padding:0;
@@ -59,3 +61,6 @@ img{
     margin-top: 16px;
 
 }
+
+
+
